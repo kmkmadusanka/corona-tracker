@@ -34,6 +34,7 @@ class App extends Component {
     if (!country) {
       this.setState({
         data: await fetchData(),
+        country: '',
       });
     } else {
       this.setState({
