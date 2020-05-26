@@ -1,0 +1,24 @@
+.card {
+  margin: 0 2% !important;
+}
+
+.Infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.6);
+}
+
+.Recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.6);
+}
+.Deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.6);
+}
+
+.typographyPadding {
+  padding: 5px 0px 10px 0px !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    margin: 2% 2% !important;
+  }
+}
